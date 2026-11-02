@@ -4,31 +4,29 @@ import RoseHeroTemp from "@/app/components/RoseHeroTemp";
 
 export default function CoupleIntro() {
   const events = [
-     {
+    {
       title_ceremony: "Haldi",
       image: "/assets/haldi.webp",
       date: "Wednesday, December 9th 2026",
       time: "1:00 PM onwards",
-      followed:"Followed by Lunch",
+      followed: "Followed by Lunch",
     },
     {
       title_ceremony: "Ring Ceremony & Cocktail",
       image: "/assets/ring.png",
       date: "Wednesday, December 9th 2026",
       time: "6:00 PM onwards",
-     followed:"Followed by Dinner",
+      followed: "Dinner Followed by Cocktail Time 7:00 PM onwards ",
     },
 
-   
-
     {
-      title_ceremony: "Shubh Vivah",
+      title_ceremony: "Wedding",
       image: "/assets/wedding.webp",
       date: "Thursday, December 10th 2026",
-      time: "3:00 PM onwards",
-      venue: "The Marriott, Jim Corbett",
-      link: "https://maps.app.goo.gl/6wAY9hsmkpHv2gLd7",
-      followed:"Followed by Dinner",
+      baraat: "Departure of Baraat 3:00 PM",
+
+      vivah: "Shubh Vivah Shubh Lagan anusaar",
+      followed: "Dinner 7:00 PM onwards",
     },
   ];
 
@@ -82,6 +80,9 @@ export default function CoupleIntro() {
               Karan
             </h2>
             <p className="text-center text-[17px] md:text-xl lg:text-[20px] leading-tight text-[#B35800] font-playfair-display mt-3">
+              (Grand S/O Lt. Sh. Pyare Lal Madaan and Lt. Smt. Kartar Devi)
+            </p>
+            <p className="text-center text-[17px] md:text-xl lg:text-[20px] leading-tight text-[#B35800] font-playfair-display mt-3">
               (S/O Sh. Gulshan Madaan and Smt. Babita Madaan)
             </p>
             <h2 className="font-playfair-display font-medium text-5xl md:text-6xl lg:text-[100px] text-center mt-4 leading-tight text-[#B35800]">
@@ -92,6 +93,9 @@ export default function CoupleIntro() {
               Tanishkaa
             </h2>
             <p className="text-center text-[17px] md:text-xl lg:text-[20px] leading-tight text-[#B35800] font-playfair-display">
+              (Grand D/O Sh. Mangey Ram Singh and Smt. Rajbala)
+            </p>
+            <p className="text-center text-[17px] md:text-xl lg:text-[20px] leading-tight text-[#B35800] font-playfair-display mt-3">
               (D/O Sh. Vijay Kumar Singh and Smt. Lata Singh)
             </p>
             <p className="font-eb-garamond font-medium text-base md:text-xl lg:text-3xl mt-12 text-[#B35800]">
@@ -125,9 +129,37 @@ export default function CoupleIntro() {
                     {event.title_ceremony}
                   </h2>
                   <p className="font-eb-garamond font-medium md:mt-2 text-[#B35800] text-lg">
-                    <span className="text-base">{event.date}</span> <br />
-                    <span className="text-base"> {event.time} </span> <br />
-                    <span className="text-base"> {event.followed} </span>
+                    {event.date && (
+                      <>
+                        <span className="text-base">{event.date}</span>
+                        <br />
+                      </>
+                    )}
+
+                    {event.time && (
+                      <>
+                        <span className="text-base">{event.time}</span>
+                        <br />
+                      </>
+                    )}
+
+                    {event.baraat && (
+                      <>
+                        <span className="text-base">{event.baraat}</span>
+                        <br />
+                      </>
+                    )}
+
+                    {event.vivah && (
+                      <>
+                        <span className="text-base">{event.vivah}</span>
+                        <br />
+                      </>
+                    )}
+
+                    {event.followed && (
+                      <span className="text-base">{event.followed}</span>
+                    )}
                   </p>
                 </div>
               ))}
