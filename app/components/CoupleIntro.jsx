@@ -8,15 +8,15 @@ export default function CoupleIntro() {
       title_ceremony: "Haldi",
       image: "/assets/haldi.webp",
       date: "Wednesday, December 9th 2026",
-      time: "at 1:00 PM",
-      
+      time: "1:00 PM onwards",
+      followed:"Followed by Lunch",
     },
     {
       title_ceremony: "Ring Ceremony & Cocktail",
       image: "/assets/ring.png",
       date: "Wednesday, December 9th 2026",
-      time: "at 6:00 PM",
-     
+      time: "6:00 PM onwards",
+     followed:"Followed by Dinner",
     },
 
    
@@ -25,9 +25,10 @@ export default function CoupleIntro() {
       title_ceremony: "Shubh Vivah",
       image: "/assets/wedding.webp",
       date: "Thursday, December 10th 2026",
-      time: "at 3:00 PM",
+      time: "3:00 PM onwards",
       venue: "The Marriott, Jim Corbett",
       link: "https://maps.app.goo.gl/6wAY9hsmkpHv2gLd7",
+      followed:"Followed by Dinner",
     },
   ];
 
@@ -126,7 +127,7 @@ export default function CoupleIntro() {
                   <p className="font-eb-garamond font-medium md:mt-2 text-[#B35800] text-lg">
                     <span className="text-base">{event.date}</span> <br />
                     <span className="text-base"> {event.time} </span> <br />
-                    {/* <span className="text-base uppercase"> {event.venue} </span> */}
+                    <span className="text-base"> {event.followed} </span>
                   </p>
                 </div>
               ))}
