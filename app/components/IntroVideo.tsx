@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useEffect, useRef, useState } from "react";
@@ -23,6 +24,7 @@ export default function IntroVideo() {
       document.body.style.right = "";
       document.body.style.overflow = "auto";
     }
+
     return () => {
       document.body.style.position = "";
       document.body.style.top = "";
@@ -33,11 +35,13 @@ export default function IntroVideo() {
   }, [show]);
 
   const playVideo = async () => {
-    if (!videoRef.current) return;
+    if (!videoRef.current || started) return;
+
     try {
       setStarted(true);
       await videoRef.current.play();
     } catch (e) {
+      setStarted(false);
       console.log(e);
     }
   };
@@ -53,7 +57,8 @@ export default function IntroVideo() {
 
   return (
     <div
-      className={`fixed inset-0 z-[999999] transition-opacity duration-700 ${
+      onClick={playVideo}
+      className={`fixed inset-0 z-[999999] transition-opacity duration-700 cursor-pointer ${
         hide ? "opacity-0 pointer-events-none" : "opacity-100"
       }`}
       style={{ width: "100vw", height: "100%" }}
@@ -62,7 +67,6 @@ export default function IntroVideo() {
         ref={videoRef}
         poster="/assets/hero_video3.png"
         playsInline
-        webkit-playsinline="true"
         muted
         preload="auto"
         onEnded={handleEnd}
@@ -78,17 +82,6 @@ export default function IntroVideo() {
       >
         <source src="/assets/hero_video.mp4" type="video/mp4" />
       </video>
-
-      {!started && (
-        <button
-          onClick={playVideo}
-          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 
-          w-20 h-20 md:w-28 md:h-28 rounded-full   
-          text-black text-4xl hover:scale-110 transition cursor-pointer"
-        >
-         
-        </button>
-      )}
     </div>
   );
 }

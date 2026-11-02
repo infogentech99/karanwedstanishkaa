@@ -4,9 +4,13 @@
 export default function CoupleUs() {
 
     return (
+<>
+        
 
-            <div className="bg-[url('/assets/res_bg_two.webp')] md:bg-[url('/assets/bg_two.webp')] bg-cover bg-no-repeat">
-                <div className="flex flex-col items-center h-118 md:h-176 lg:h-318 3xl:h-403">
+
+
+           
+                <div className="flex flex-col items-center bg-[#FFF4E0]">
                   <h2 className="font-playfair-display font-medium italic text-2xl md:text-4xl lg:text-7xl text-center pt-10 md:pt-6 lg:pt-14 3xl:pt-24 text-[#B35800]">
                     With <br /> Love From Us
                   </h2>
@@ -21,8 +25,9 @@ export default function CoupleUs() {
                    All our favourite people are going to be in one place for one <br className="hidden md:block" /> very special weekend, and we couldn’t ask for more! <br /><br />
                    Come ready for lots of love, and memories we’ll be talking about for years❤️
                   </h2>
+                   <img src="/assets/res_bg_two2.webp" alt="icon" className="mt-10"/>
                 </div>
-            </div>
-
+            
+</>
     );
 }

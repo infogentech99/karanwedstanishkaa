@@ -4,38 +4,28 @@ import RoseHeroTemp from "@/app/components/RoseHeroTemp";
 
 export default function CoupleIntro() {
   const events = [
-    {
-      title_ceremony: "Mehendi",
-      image: "/assets/mehendi.webp",
-      date: "Friday, November 20th 2026",
-      time: "at 12:30 PM",
-      venue: "The Marriott, Jim Corbett",
-      link: "https://maps.app.goo.gl/6wAY9hsmkpHv2gLd7",
-    },
-
-    {
-      title_ceremony: "Sangeet",
-      image: "/assets/sangeet.webp",
-      date: "Friday, November 20th 2026",
-      time: "at 8:00 PM",
-      venue: "The Marriott, Jim Corbett",
-      link: "https://maps.app.goo.gl/6wAY9hsmkpHv2gLd7",
-    },
-
-    {
-      title_ceremony: "Haldi & Chooda",
+     {
+      title_ceremony: "Haldi",
       image: "/assets/haldi.webp",
-      date: "Saturday, November 21st 2026",
-      time: "at 9:30 AM",
-      venue: "The Marriott, Jim Corbett",
-      link: "https://maps.app.goo.gl/6wAY9hsmkpHv2gLd7",
+      date: "Wednesday, December 9th 2026",
+      time: "at 1:00 PM",
+      
+    },
+    {
+      title_ceremony: "Ring Ceremony & Cocktail",
+      image: "/assets/ring.png",
+      date: "Wednesday, December 9th 2026",
+      time: "at 6:00 PM",
+     
     },
 
+   
+
     {
-      title_ceremony: "Wedding",
+      title_ceremony: "Shubh Vivah",
       image: "/assets/wedding.webp",
-      date: "Saturday, November 21st 2026",
-      time: "at 4:30 PM",
+      date: "Thursday, December 10th 2026",
+      time: "at 3:00 PM",
       venue: "The Marriott, Jim Corbett",
       link: "https://maps.app.goo.gl/6wAY9hsmkpHv2gLd7",
     },
@@ -44,7 +34,7 @@ export default function CoupleIntro() {
   return (
     <>
       <div
-        className="bg-[url('/assets/respo_bg.webp')] md:bg-[url('/assets/background.webp')] bg-cover
+        className="bg-[url('/assets/respo_back.webp')] md:bg-[url('/assets/back.webp')] bg-cover
                             md:bg-cover bg-top bg-no-repeat w-full relative overflow-hidden md:min-h-screen"
       >
         <RoseHeroTemp />
@@ -54,16 +44,16 @@ export default function CoupleIntro() {
                                pb-0 md:pb-260 lg:pb-200 3xl:pb-270 text-[#B35800]"
           >
             <span className="font-playfair-display font-medium italic">
-              Shivangani
+              Karan
             </span>
             <span className="font-playfair-display font-medium italic text-xl md:text-3xl lg:text-[38px]">
               Weds
             </span>
             <span className="font-playfair-display font-medium italic">
-              Ashanka
+              Tanishkaa
             </span>
           </h2>
-          <div className="flex flex-col items-center text-center md:gap-6 mt-0 pt-80 lg:pt-150">
+          <div className="flex flex-col items-center text-center md:gap-6 mt-0 pt-120 lg:pt-150">
             <h2 className="font-eb-garamond font-bold text-base md:text-2xl lg:text-3xl text-center text-[#B35800]">
               ॐ श्री गणेशाय नम:
             </h2>
@@ -88,33 +78,36 @@ export default function CoupleIntro() {
               You to join us for the wedding celebrations of
             </p>
             <h2 className="font-eb-garamond font-medium text-center text-5xl md:text-6xl lg:text-[100px] mt-6 leading-8 md:leading-tight text-[#B35800]">
-              Shivangani
+              Karan
             </h2>
+            <p className="text-center text-[17px] md:text-xl lg:text-[20px] leading-tight text-[#B35800] font-playfair-display mt-3">
+              (S/O Sh. Gulshan Madaan and Smt. Babita Madaan)
+            </p>
             <h2 className="font-playfair-display font-medium text-5xl md:text-6xl lg:text-[100px] text-center mt-4 leading-tight text-[#B35800]">
               <span className="text-center mt-4 lg:mt-10 text-5xl md:text-6xl lg:text-[100px] leading-tight text-[#B35800] font-playfair-display">
                 &
               </span>
               <br />
-              Ashanka
+              Tanishkaa
             </h2>
-
-<p className="font-eb-garamond font-medium text-base md:text-xl lg:text-3xl mt-12 text-[#B35800]">
-              At the Marriott Jim Corbett
-              <br/>
-               <a
-                    href="https://maps.app.goo.gl/6wAY9hsmkpHv2gLd7"
-                    className="font-eb-garamond font-medium underline md:text-lg text-[13px] md:mt-2 text-[#B35800]"
-                    target="_blank"
-                  >
-                    View Directions
-                  </a>
+            <p className="text-center text-[17px] md:text-xl lg:text-[20px] leading-tight text-[#B35800] font-playfair-display">
+              (D/O Sh. Vijay Kumar Singh and Smt. Lata Singh)
+            </p>
+            <p className="font-eb-garamond font-medium text-base md:text-xl lg:text-3xl mt-12 text-[#B35800]">
+              At the Namaste Corbett Resort
+              <br />
+              <a
+                href="https://maps.app.goo.gl/4j1dZ8THtrBCpZzTA"
+                className="font-eb-garamond font-medium underline md:text-lg text-[13px] md:mt-2 text-[#B35800]"
+                target="_blank"
+              >
+                View Directions
+              </a>
             </p>
 
             {/* <p className="font-eb-garamond font-medium text-base md:text-xl lg:text-3xl mt-12 text-[#B35800]">
               On the following events
             </p> */}
-
-            
           </div>
 
           <div className="flex justify-center mt-15 md:mt-20">
@@ -124,10 +117,10 @@ export default function CoupleIntro() {
                   <img
                     src={event.image}
                     alt={event.venue}
-                    className="w-95 h-auto md:w-76 lg:w-80"
+                    className="w-85 h-auto md:w-76 lg:w-80"
                   />
 
-                  <h2 className="font-playfair-display font-medium text-[36px] md:text-3xl lg:text-[42px] mt-2 md:mt-4 text-[#B35800]">
+                  <h2 className="font-playfair-display font-medium text-[30px] md:text-3xl lg:text-[42px] mt-2 md:mt-4 text-[#B35800]">
                     {event.title_ceremony}
                   </h2>
                   <p className="font-eb-garamond font-medium md:mt-2 text-[#B35800] text-lg">
@@ -135,8 +128,6 @@ export default function CoupleIntro() {
                     <span className="text-base"> {event.time} </span> <br />
                     {/* <span className="text-base uppercase"> {event.venue} </span> */}
                   </p>
-
-                  
                 </div>
               ))}
             </div>
