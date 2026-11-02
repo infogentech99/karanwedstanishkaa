@@ -4,7 +4,6 @@ import CoupleIntro from "@/app/components/CoupleIntro";
 import CoupleUs from "@/app/components/CoupleUs";
 import CoupleMessage from "@/app/components/CoupleMessage";
 import CoupleLogo from "@/app/components/CoupleLogo";
-import FlyingBird from "@/app/components/FlyingBird";
 import RoseHeroTemp from "@/app/components/RoseHeroTemp";
 import IntroVideo from "@/app/components/IntroVideo";
 export default function Home() {
