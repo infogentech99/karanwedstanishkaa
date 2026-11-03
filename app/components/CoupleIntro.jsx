@@ -25,7 +25,7 @@ export default function CoupleIntro() {
       date: "Thursday, December 10th 2026",
       baraat: "Departure of Baraat 3:00 PM",
 
-      vivah: "Shubh Vivah Shubh Lagan anusaar",
+      vivah: "Shubh Vivah - Shubh Lagan anusaar",
       followed: "Dinner 7:00 PM onwards",
     },
   ];
@@ -65,9 +65,9 @@ export default function CoupleIntro() {
               With the heavenly blessings of
             </h2>
             <hr className="w-20 lg:w-26 lg:border-2 my-3 lg:my-4 border-[#B35800]" /> */}
-            <h2 className="font-eb-garamond font-medium text-xl md:text-3xl lg:text-[42px] text-[#B35800]">
+            {/* <h2 className="font-eb-garamond font-medium text-xl md:text-3xl lg:text-[42px] text-[#B35800]">
               The Anands and Sahas
-            </h2>
+            </h2> */}
           </div>
           <div className="text-center mt-8">
             <h2 className="playfair-display font-semibold text-3xl md:text-4xl lg:text-6xl leading-tight lg:tracking-wide tracking-wider text-[#B35800] italic">
