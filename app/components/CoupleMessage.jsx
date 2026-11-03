@@ -83,11 +83,11 @@ export default function CoupleMessage() {
   return (
     <div className="bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
       <div className="flex flex-col items-center h-650 md:h-750 lg:h-1200 3xl:h-1200">
-        <h2 className="font-playfair-display font-semibold text-base md:text-xl lg:text-[38px] text-center pt-12 md:pt-18 lg:pt-32 text-[#B35800]">
+        <h2 className="playfair-display font-semibold text-base md:text-xl lg:text-[38px] text-center pt-12 md:pt-18 lg:pt-32 text-[#B35800]">
           INTRODUCING
         </h2>
         <h2
-          className="font-playfair-display font-medium italic text-5xl md:text-6xl lg:text-[100px] text-center 
+          className="playfair-display font-medium italic text-5xl md:text-6xl lg:text-[100px] text-center 
                                mt-12 md:mt-16 lg:mt-28 leading-7 md:leading-8 lg:leading-8 text-[#B35800]"
         >
           The Couple
@@ -189,7 +189,7 @@ export default function CoupleMessage() {
         </div>
 
         <h2
-          className="font-playfair-display font-medium italic text-3xl md:text-5xl lg:text-[100px] text-center pt-15 
+          className="playfair-display font-medium italic text-3xl md:text-5xl lg:text-[100px] text-center pt-15 
                                md:pt-30 lg:pt-35 text-[#B35800]"
         >
           A Guide for Guests
@@ -220,7 +220,7 @@ export default function CoupleMessage() {
                 alt="weather"
                 className="h-26 w-32 md:w-25 md:h-20 lg:w-42 lg:h-42"
               />
-              <h2 className="font-playfair-display font-semibold text-xl md:text-xl lg:text-2xl mt-2 text-[#B35800]">
+              <h2 className="playfair-display font-semibold text-xl md:text-xl lg:text-2xl mt-2 text-[#B35800]">
                 Weather
               </h2>
               <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-1 md:leading-6 text-[#B35800]">
@@ -236,7 +236,7 @@ export default function CoupleMessage() {
                 alt="parking"
                 className="w-32 h-26 md:w-25 md:h-20 lg:w-42 lg:h-42"
               />
-              <h2 className="font-playfair-display font-semibold text-xl md:text-xl lg:text-2xl mt-2 text-[#B35800]">
+              <h2 className="playfair-display font-semibold text-xl md:text-xl lg:text-2xl mt-2 text-[#B35800]">
                 Parking
               </h2>
               <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-1 md:leading-6 text-[#B35800]">
@@ -251,7 +251,7 @@ export default function CoupleMessage() {
 
         <div className="relative bg-[url('/assets/rsvp.webp')] bg-cover bg-center bg-no-repeat overflow-hidden w-66 h-96 md:w-94 md:h-135 lg:w-187 lg:h-269 mt-20">
           <div className="absolute inset-0 flex flex-col items-center justify-center top-25 md:top-33 lg:top-45">
-            <h2 className="font-playfair-display font-medium italic text-center text-2xl md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800]">
+            <h2 className="playfair-display font-medium italic text-center text-2xl md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800]">
               Awaiting the <br /> Pleasure of <br /> Your Company
             </h2>
             <p className="font-eb-garamond font-semibold text-center text-xs md:text-sm lg:text-xl mt-2 lg:mt-4 text-[#B35800]">
@@ -291,7 +291,7 @@ export default function CoupleMessage() {
           </div>
         </div>
 
-<h2 className="font-playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-20">
+<h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-20">
               With Best Wishing From
             </h2>
             <p className="font-eb-garamond text-center text-[17px] md:text-sm lg:text-xl mt-2 lg:mt-4 text-[#B35800]">
@@ -304,7 +304,7 @@ All Dadka & Nanke
 
 
         <div className="flex flex-col items-center h-80 md:h-100 lg:h-110 md:gap-2">
-          <h2 className="font-playfair-display font-medium italic text-4xl md:text-6xl lg:text-[100px] text-center pt-10 lg:pt-30 mt-4 text-[#B35800]">
+          <h2 className="playfair-display font-medium italic text-4xl md:text-6xl lg:text-[100px] text-center pt-10 lg:pt-30 mt-4 text-[#B35800]">
             The Countdown <br /> Begins
           </h2>
           <div className="flex gap-2 mt-4">
@@ -317,28 +317,28 @@ All Dadka & Nanke
             <hr className="w-10 lg:w-20 md:border my-3 md:my-6 border-[#B35800]" />
           </div>
           <div className="flex gap-10 mt-8 md:mt-0">
-            <h2 className="font-playfair-display font-medium text-4xl md:text-3xl lg:text-[52px] text-center text-[#B35800]">
+            <h2 className="playfair-display font-medium text-4xl md:text-3xl lg:text-[52px] text-center text-[#B35800]">
               {timeLeft.days}
               <p className="font-eb-garamond font-medium text-xs md:text-sm lg:text-base mb-8">
                 DAYS
               </p>
             </h2>
 
-            <h2 className="font-playfair-display font-medium text-4xl md:text-3xl lg:text-[52px] text-center text-[#B35800]">
+            <h2 className="playfair-display font-medium text-4xl md:text-3xl lg:text-[52px] text-center text-[#B35800]">
               {timeLeft.hours}
               <p className="font-eb-garamond font-medium text-xs md:text-sm lg:text-base">
                 HOURS
               </p>
             </h2>
 
-            <h2 className="font-playfair-display font-medium text-4xl md:text-3xl lg:text-[52px] text-center text-[#B35800]">
+            <h2 className="playfair-display font-medium text-4xl md:text-3xl lg:text-[52px] text-center text-[#B35800]">
               {timeLeft.minutes}
               <p className="font-eb-garamond font-medium text-xs md:text-sm lg:text-base">
                 MINUTES
               </p>
             </h2>
 
-            <h2 className="font-playfair-display font-medium text-4xl md:text-3xl lg:text-[52px] text-center text-[#B35800]">
+            <h2 className="playfair-display font-medium text-4xl md:text-3xl lg:text-[52px] text-center text-[#B35800]">
               {timeLeft.seconds}
               <p className="font-eb-garamond font-medium text-xs md:text-sm lg:text-base">
                 SECONDS

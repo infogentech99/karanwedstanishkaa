@@ -42,13 +42,13 @@ export default function CoupleIntro() {
             className="flex flex-col items-center text-center leading-tight text-3xl md:text-5xl lg:text-7xl
                                pb-0 md:pb-260 lg:pb-200 3xl:pb-270 text-[#B35800]"
           >
-            <span className="font-playfair-display font-medium italic">
+            <span className="great-vibes-regular font-semibold">
               Karan
             </span>
-            <span className="font-playfair-display font-medium italic text-xl md:text-3xl lg:text-[38px]">
+            <span className="playfair-display font-semibold italic text-xl md:text-3xl lg:text-[38px]">
               Weds
             </span>
-            <span className="font-playfair-display font-medium italic">
+            <span className="great-vibes-regular font-semibold">
               Tanishkaa
             </span>
           </h2>
@@ -70,32 +70,32 @@ export default function CoupleIntro() {
             </h2>
           </div>
           <div className="text-center mt-8">
-            <h2 className="font-playfair-display font-semibold text-3xl md:text-4xl lg:text-6xl leading-tight lg:tracking-wide tracking-wider text-[#B35800] italic">
+            <h2 className="playfair-display font-semibold text-3xl md:text-4xl lg:text-6xl leading-tight lg:tracking-wide tracking-wider text-[#B35800] italic">
               Invite
             </h2>
             <p className="font-eb-garamond font-medium text-xl md:text-2xl lg:text-3xl mt-4 md:mt-6 text-[#B35800]">
               You to join us for the wedding celebrations of
             </p>
-            <h2 className="font-eb-garamond font-medium text-center text-5xl md:text-6xl lg:text-[100px] mt-6 leading-8 md:leading-tight text-[#B35800]">
+            <h2 className="great-vibes-regular font-semibold text-center text-5xl md:text-6xl lg:text-[100px] mt-6 leading-8 md:leading-tight text-[#B35800]">
               Karan
             </h2>
-            <p className="text-center text-[17px] md:text-xl lg:text-[20px] leading-tight text-[#B35800] font-playfair-display mt-3">
+            <p className="text-center text-[17px] md:text-xl lg:text-[20px] leading-tight text-[#B35800] playfair-display mt-3">
               (Grand S/O Lt. Sh. Pyare Lal Madaan and Lt. Smt. Kartar Devi)
             </p>
-            <p className="text-center text-[17px] md:text-xl lg:text-[20px] leading-tight text-[#B35800] font-playfair-display mt-3">
+            <p className="text-center text-[17px] md:text-xl lg:text-[20px] leading-tight text-[#B35800] playfair-display mt-3">
               (S/O Sh. Gulshan Madaan and Smt. Babita Madaan)
             </p>
-            <h2 className="font-playfair-display font-medium text-5xl md:text-6xl lg:text-[100px] text-center mt-4 leading-tight text-[#B35800]">
-              <span className="text-center mt-4 lg:mt-10 text-5xl md:text-6xl lg:text-[100px] leading-tight text-[#B35800] font-playfair-display">
+            <h2 className="great-vibes-regular font-semibold text-5xl md:text-6xl lg:text-[100px] text-center mt-4 leading-tight text-[#B35800]">
+              <span className="text-center mt-4 lg:mt-10 text-4xl md:text-6xl lg:text-[100px] leading-tight text-[#B35800] playfair-display font-medium">
                 &
               </span>
               <br />
               Tanishkaa
             </h2>
-            <p className="text-center text-[17px] md:text-xl lg:text-[20px] leading-tight text-[#B35800] font-playfair-display">
+            <p className="text-center text-[17px] md:text-xl lg:text-[20px] leading-tight text-[#B35800] playfair-display">
               (Grand D/O Sh. Mangey Ram Singh and Smt. Rajbala)
             </p>
-            <p className="text-center text-[17px] md:text-xl lg:text-[20px] leading-tight text-[#B35800] font-playfair-display mt-3">
+            <p className="text-center text-[17px] md:text-xl lg:text-[20px] leading-tight text-[#B35800] playfair-display mt-3">
               (D/O Sh. Vijay Kumar Singh and Smt. Lata Singh)
             </p>
             <p className="font-eb-garamond font-medium text-base md:text-xl lg:text-3xl mt-12 text-[#B35800]">
@@ -125,10 +125,10 @@ export default function CoupleIntro() {
                     className="w-85 h-auto md:w-76 lg:w-80"
                   />
 
-                  <h2 className="font-playfair-display font-medium text-[30px] md:text-3xl lg:text-[42px] mt-2 md:mt-4 text-[#B35800]">
+                  <h2 className="cinzel font-bold text-[24px] md:text-2xl lg:text-[32px] mt-2 md:mt-4 text-[#B35800]">
                     {event.title_ceremony}
                   </h2>
-                  <p className="font-eb-garamond font-medium md:mt-2 text-[#B35800] text-lg">
+                  <p className="lora font-medium md:mt-2 text-[#B35800] text-lg">
                     {event.date && (
                       <>
                         <span className="text-base">{event.date}</span>
