@@ -22,7 +22,7 @@ export default function CoupleUs() {
                   <h2 className="lora font-medium text-[15px] md:text-2xl lg:text-3xl text-center leading-4 md:leading-5 lg:leading-9 pt-0 md:pt-2 lg:pt-2 text-[#B35800] md:px-0 px-10">
                    {/* Thank you for being part of our journey. <br /> Your presence makes this celebration truly <br /> 
                    meaningful, and we look forward to sharing <br /> these cherished moments with you. */}
-                   All our favourite people are going to be in one place for one <br className="hidden md:block" /> very special weekend, and we couldn’t ask for more! <br /><br />
+                   All our favourite people are going to be in one place for one <br className="hidden md:block" /> very special day, and we couldn’t ask for more! <br /><br />
                    Come ready for lots of love, and memories we’ll be talking about for years❤️
                   </h2>
                    <img src="/assets/res_bg_two2.webp" alt="icon" className="mt-10"/>

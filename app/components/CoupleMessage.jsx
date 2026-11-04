@@ -63,19 +63,24 @@ export default function CoupleMessage() {
     {
       img: "/assets/shiv_couple2.jpg",
     },
+    {
+      img: "/assets/shiv_couple3.jpg",
+    },
 
     {
       img: "/assets/shiv_couple4.jpg",
     },
-    // {
-    //    img: "/assets/shiv_couple3.jpg",
-    //  },
 
     {
       img: "/assets/shiv_couple5.jpg",
     },
 
-    
+    {
+      img: "/assets/shiv_couple7.webp",
+    },
+    {
+      img: "/assets/shiv_couple8.jpg",
+    },
   ];
 
   return (
@@ -238,7 +243,7 @@ export default function CoupleMessage() {
                 Parking
               </h2>
               <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-1 md:leading-6 text-[#B35800]">
-                Valet parking for all our guests will be <br /> available at the
+                Parking for all our guests will be <br /> available at the
                 venue, ensuring a <br />
                 smooth and hassle-free arrival.
               </p>
@@ -266,12 +271,15 @@ export default function CoupleMessage() {
                 alt="WhatsApp"
                 className="w-7.5 h-7.5 md:w-11.25 md:h-11.25 lg:w-15 lg:h-15 "
               />
-              <p className="font-eb-garamond text-center text-[16px] md:text-sm lg:text-xl text-[#B35800]">
+              <p className="font-eb-garamond font-bold text-center text-[17px] md:text-sm lg:text-xl text-[#B35800]">
                 Gulshan Madaan
               </p>
             </a>
-
-            <a
+            <p className="font-eb-garamond text-center text-[13px] md:text-sm lg:text-xl text-[#B35800] mt-2">
+              MADAAN MOTERS Kichha, <br /> U.S.Nagar,
+              <br /> Uttarakhand- 263148
+            </p>
+            {/* <a
               href="https://wa.me/919837150019"
               target="_blank"
               rel="noopener noreferrer"
@@ -285,21 +293,20 @@ export default function CoupleMessage() {
               <p className="font-eb-garamond text-center text-[16px] md:text-sm lg:text-xl text-[#B35800]">
                 Madaan Moters
               </p>
-            </a>
+            </a> */}
           </div>
         </div>
 
-<h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-20">
-              With Best Wishing From
-            </h2>
-            <p className="font-eb-garamond text-center text-[17px] md:text-sm lg:text-xl mt-2 lg:mt-4 text-[#B35800]">
-              Sh. Madan Mohan Madaan <br/>
-Sh. Jogendra Pal Madaan <br/>
-Sh. Baldev Madaan <br/>
-Sh. Kishan Madaan <br/>
-All Dadka & Nanke
-            </p>
-
+        <h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-20">
+          With Best Wishing From
+        </h2>
+        <p className="font-eb-garamond text-center text-[17px] md:text-sm lg:text-xl mt-2 lg:mt-4 text-[#B35800]">
+          Sh. Madan Mohan Madaan <br />
+          Sh. Jogendra Pal Madaan <br />
+          Sh. Baldev Madaan <br />
+          Sh. Kishan Madaan <br />
+          All Dadke & Nanke
+        </p>
 
         <div className="flex flex-col items-center h-80 md:h-100 lg:h-110 md:gap-2">
           <h2 className="playfair-display font-medium italic text-4xl md:text-6xl lg:text-[100px] text-center pt-10 lg:pt-30 mt-4 text-[#B35800]">

@@ -6,14 +6,14 @@ export default function CoupleIntro() {
   const events = [
     {
       title_ceremony: "Haldi",
-      image: "/assets/haldi.webp",
+      image: "/assets/haldi_n.webp",
       date: "Wednesday, December 9th 2026",
       time: "1:00 PM onwards",
       followed: "Followed by Lunch",
     },
     {
       title_ceremony: "Ring Ceremony & Cocktail",
-      image: "/assets/ring.png",
+      image: "/assets/ring_n.webp",
       date: "Wednesday, December 9th 2026",
       time: "6:00 PM onwards",
       followed: "Dinner Followed by Cocktail Time 7:00 PM onwards ",
@@ -21,7 +21,7 @@ export default function CoupleIntro() {
 
     {
       title_ceremony: "Wedding",
-      image: "/assets/wedding.webp",
+      image: "/assets/wedding_n.webp",
       date: "Thursday, December 10th 2026",
       baraat: "Departure of Baraat 3:00 PM",
 
@@ -98,8 +98,8 @@ export default function CoupleIntro() {
             <p className="text-center text-[17px] md:text-xl lg:text-[20px] leading-tight text-[#B35800] playfair-display mt-3">
               (D/O Sh. Vijay Kumar Singh and Smt. Lata Singh)
             </p>
-            <p className="font-eb-garamond font-medium text-base md:text-xl lg:text-3xl mt-12 text-[#B35800]">
-              At the Namaste Corbett Resort
+            <p className="font-eb-garamond font-medium text-xl md:text-xl lg:text-3xl mt-12 text-[#B35800]">
+              At the Namaste Corbett Resort, <br/> Bachatpur, Ramnagar
               <br />
               <a
                 href="https://maps.app.goo.gl/4j1dZ8THtrBCpZzTA"
