@@ -57,27 +57,25 @@ export default function CoupleMessage() {
 
   const testimonial = [
     {
-      img: "/assets/shiv_couple1.webp",
+      img: "/assets/shiv_couple1.jpg",
     },
 
-    // {
-    //   img: "/assets/shiv_couple2.webp",
-    // },
+    {
+      img: "/assets/shiv_couple2.jpg",
+    },
 
+    {
+      img: "/assets/shiv_couple4.jpg",
+    },
     // {
-    //   img: "/assets/shiv_couple4.webp",
-    // },
+    //    img: "/assets/shiv_couple3.jpg",
+    //  },
 
-    // {
-    //   img: "/assets/shiv_couple5.webp",
-    // },
+    {
+      img: "/assets/shiv_couple5.jpg",
+    },
 
-    // {
-    //   img: "/assets/shiv_couple6.webp",
-    // },
-    // {
-    //   img: "/assets/shiv_couple3.webp",
-    // },
+    
   ];
 
   return (
