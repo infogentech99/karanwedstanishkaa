@@ -6,7 +6,7 @@ export default function CoupleLogo() {
     return (
         <> 
            
-
+{/* 
             <picture className="block w-full">
   <source
     media="(min-width: 768px)"
@@ -18,7 +18,7 @@ export default function CoupleLogo() {
     alt=""
     className="block w-full h-auto"
   />
-</picture>
+</picture> */}
         </>
     );
 }
