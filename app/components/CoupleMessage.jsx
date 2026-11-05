@@ -85,7 +85,7 @@ export default function CoupleMessage() {
 
   return (
     <div className="bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
-      <div className="flex flex-col items-center h-730 md:h-850 lg:h-1300 3xl:h-1300">
+      <div className="flex flex-col items-center h-710 md:h-850 lg:h-1300 3xl:h-1300">
         <h2 className="playfair-display font-semibold text-base md:text-xl lg:text-[38px] text-center pt-12 md:pt-18 lg:pt-32 text-[#B35800]">
           INTRODUCING
         </h2>
@@ -308,7 +308,7 @@ export default function CoupleMessage() {
 
 
         
-        <h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-20">
+        <h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-14">
           With Best Wishing From
         </h2>
         <p className="font-eb-garamond text-center text-[17px] md:text-sm lg:text-xl mt-2 lg:mt-4 text-[#B35800]">
@@ -320,7 +320,7 @@ export default function CoupleMessage() {
         </p>
 
 
-        <h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-20">
+        <h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-14">
          Special Compliments From
         </h2>
         <p className="font-eb-garamond text-center text-[17px] md:text-sm lg:text-xl mt-2 lg:mt-4 text-[#B35800]">
