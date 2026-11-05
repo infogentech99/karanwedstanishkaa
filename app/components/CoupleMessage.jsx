@@ -378,7 +378,7 @@ export default function CoupleMessage() {
             We are excited to celebrate <br className="hidden md:block" />
             the happiest day of our life with you.
           </p>
-          {/* <div className="flex gap-3 justify-center items-center mt-4">
+        <div className="flex gap-3 justify-center items-center mt-4">
             <a href="https://www.instagram.com/theinvitearc/" target="_blank">
               <img
                 src="/assets/instagram.webp"
@@ -391,7 +391,7 @@ export default function CoupleMessage() {
                 Follow InviteArc on Instagram
               </a>
             </p>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
