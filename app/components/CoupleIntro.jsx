@@ -39,10 +39,15 @@ export default function CoupleIntro() {
         <RoseHeroTemp />
         <div className="relative pt-5 md:pt-30 3xl:pt-34 pb-20 z-10">
           <h2
-            className="flex flex-col items-center text-center leading-tight text-3xl md:text-5xl lg:text-7xl
+            className="flex flex-col items-center text-center leading-tight text-2xl md:text-5xl lg:text-7xl
                                pb-0 md:pb-260 lg:pb-200 3xl:pb-270 text-[#B35800]"
           >
-            <span className="great-vibes-regular font-semibold">
+            <img
+              src="/assets/ganesh.png"
+              alt="ganesh"
+              className="w-12 h-12 md:w-25 md:h-24 lg:w-30 lg:h-30 my-2 lg:mt-3"
+            />
+            <span className="great-vibes-regular font-semibold mt-2">
               Karan
             </span>
             <span className="playfair-display font-semibold italic text-xl md:text-3xl lg:text-[38px]">
