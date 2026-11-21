@@ -56,6 +56,16 @@ export default function CoupleMessage() {
   }, []);
 
   const testimonial = [
+     {
+      img: "/assets/shiv_couple1n.jpg",
+    },
+
+    {
+      img: "/assets/shiv_couple2n.jpg",
+    },
+    {
+      img: "/assets/shiv_couple3n.jpg",
+    },
     {
       img: "/assets/shiv_couple1.jpg",
     },
